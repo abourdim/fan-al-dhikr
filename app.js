@@ -228,6 +228,126 @@ const CARDS = [
     ar:{title:'الثبات على الذكر',desc:'الذكر يحتاج مداومة. ليس المهم أن تذكر الله يوماً ثم تنسى أياماً. أحب الأعمال إلى الله أدومها وإن قلّ.',verse:'يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا',verseRef:'سورة الأحزاب ٣٣: ٤١',action:'اختر ذكراً واحداً وداوم عليه كل يوم لمدة شهر'},
     en:{title:'Consistency in Dhikr',desc:'Dhikr requires consistency. It\'s not about remembering God one day and forgetting for days. The most beloved deeds to God are the most consistent, even if small.',verse:'O you who believe, remember Allah with much remembrance',verseRef:'Surah Al-Ahzab 33:41',action:'Choose one dhikr and maintain it daily for a month'},
     fr:{title:'Constance dans le Dhikr',desc:'Le dhikr n\u00e9cessite de la constance. L\'important n\'est pas de se souvenir de Dieu un jour puis d\'oublier plusieurs jours. Les actes les plus aim\u00e9s de Dieu sont les plus constants.',verse:'\u00d4 vous qui croyez, invoquez Allah d\'une fa\u00e7on abondante',verseRef:'Sourate Al-Ahzab 33:41',action:'Choisissez un dhikr et maintenez-le quotidiennement pendant un mois'}
+  },
+  {
+    id:21, emoji:'🛡️',
+    ar:{title:'الذكر في الشدائد',desc:'عند الشدائد يكون الذكر أعظم سلاح. يونس عليه السلام نجا من بطن الحوت بالذكر. الذكر وقت البلاء نور يشق الظلام.',verse:'فَنَادَىٰ فِي الظُّلُمَاتِ أَن لَّا إِلَٰهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ',verseRef:'سورة الأنبياء ٢١: ٨٧',action:'عندما تواجه صعوبة اليوم، ردد دعاء يونس عشر مرات'},
+    en:{title:'Dhikr in Hardship',desc:'In times of hardship, dhikr is the greatest weapon. Prophet Yunus was saved from the belly of the whale through dhikr. Remembrance during calamity is a light that pierces the darkness.',verse:'And he called out within the darknesses: There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers',verseRef:'Surah Al-Anbiya 21:87',action:'When you face a difficulty today, repeat the dua of Yunus ten times'},
+    fr:{title:'Le Dhikr dans l\'Adversit\u00e9',desc:'Dans les moments difficiles, le dhikr est la plus grande arme. Le proph\u00e8te Yunus fut sauv\u00e9 du ventre de la baleine par le dhikr. Le rappel pendant l\'\u00e9preuve est une lumi\u00e8re qui perce les t\u00e9n\u00e8bres.',verse:'Et il appela dans les t\u00e9n\u00e8bres : Il n\'y a de dieu que Toi, gloire \u00e0 Toi, j\'\u00e9tais parmi les injustes',verseRef:'Sourate Al-Anbiya 21:87',action:'Quand vous ferez face \u00e0 une difficult\u00e9 aujourd\'hui, r\u00e9p\u00e9tez le dua de Yunus dix fois'}
+  },
+  {
+    id:22, emoji:'😴',
+    ar:{title:'الذكر قبل النوم',desc:'النوم أخو الموت. من نام على ذكر الله بات في حفظه وأمانه. أذكار النوم حصن من الكوابيس والوساوس والقلق.',verse:'وَهُوَ الَّذِي جَعَلَ لَكُمُ اللَّيْلَ لِبَاسًا وَالنَّوْمَ سُبَاتًا',verseRef:'سورة الفرقان ٢٥: ٤٧',action:'اقرأ آية الكرسي والمعوذات قبل نومك الليلة'},
+    en:{title:'Dhikr Before Sleep',desc:'Sleep is the brother of death. Whoever sleeps upon God\'s remembrance stays under His protection. Sleep adhkar are a fortress against nightmares, whispers, and anxiety.',verse:'And it is He who has made the night for you as clothing and sleep a means for rest',verseRef:'Surah Al-Furqan 25:47',action:'Read Ayat al-Kursi and the Mu\'awwidhat before sleeping tonight'},
+    fr:{title:'Le Dhikr Avant le Sommeil',desc:'Le sommeil est le fr\u00e8re de la mort. Celui qui s\'endort sur le rappel de Dieu reste sous Sa protection. Les adhkar du sommeil sont une forteresse contre les cauchemars et l\'anxi\u00e9t\u00e9.',verse:'Et c\'est Lui qui a fait de la nuit un v\u00eatement pour vous et du sommeil un repos',verseRef:'Sourate Al-Furqan 25:47',action:'Lisez Ayat al-Kursi et les Mu\'awwidhat avant de dormir ce soir'}
+  },
+  {
+    id:23, emoji:'🏪',
+    ar:{title:'ذكر السوق',desc:'الأسواق أماكن غفلة وضوضاء. من ذكر الله فيها كان كالحي بين الأموات. دعاء السوق من أعظم الأذكار المهجورة.',verse:'رِجَالٌ لَّا تُلْهِيهِمْ تِجَارَةٌ وَلَا بَيْعٌ عَن ذِكْرِ اللَّهِ',verseRef:'سورة النور ٢٤: ٣٧',action:'ردد ذكر السوق عند دخولك مكاناً مزدحماً اليوم'},
+    en:{title:'Dhikr of the Marketplace',desc:'Markets are places of heedlessness and noise. Whoever remembers God there is like the living among the dead. The marketplace dua is among the greatest abandoned adhkar.',verse:'Men whom neither commerce nor sale distracts from the remembrance of God',verseRef:'Surah An-Nur 24:37',action:'Recite the marketplace dhikr when you enter a crowded place today'},
+    fr:{title:'Le Dhikr du March\u00e9',desc:'Les march\u00e9s sont des lieux d\'insouciance et de bruit. Celui qui se souvient de Dieu l\u00e0-bas est comme le vivant parmi les morts. Le dua du march\u00e9 est parmi les adhkar les plus d\u00e9laiss\u00e9s.',verse:'Des hommes que ni le commerce ni la vente ne distraient du rappel de Dieu',verseRef:'Sourate An-Nur 24:37',action:'R\u00e9citez le dhikr du march\u00e9 en entrant dans un lieu bond\u00e9 aujourd\'hui'}
+  },
+  {
+    id:24, emoji:'🔒',
+    ar:{title:'الذكر حصن وحماية',desc:'الذكر حصن حصين من الشيطان والعين والحسد. من حافظ على أذكاره كان في درع لا يخترقه إلا ما أذن الله به.',verse:'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ',verseRef:'سورة الرعد ١٣: ٢٨',action:'حافظ اليوم على أذكار الصباح والمساء كاملة بلا تقصير'},
+    en:{title:'Dhikr for Protection',desc:'Dhikr is an impenetrable fortress against Satan, the evil eye, and envy. Whoever maintains their adhkar wears an armor that nothing penetrates except by God\'s will.',verse:'Verily, in the remembrance of God do hearts find rest',verseRef:'Surah Ar-Ra\'d 13:28',action:'Maintain your complete morning and evening adhkar today without shortcoming'},
+    fr:{title:'Le Dhikr pour la Protection',desc:'Le dhikr est une forteresse imprenable contre Satan, le mauvais \u0153il et l\'envie. Celui qui maintient ses adhkar porte une armure que rien ne p\u00e9n\u00e8tre sauf par la volont\u00e9 de Dieu.',verse:'N\'est-ce pas par le rappel de Dieu que les c\u0153urs se tranquillisent',verseRef:'Sourate Ar-Ra\'d 13:28',action:'Maintenez vos adhkar complets du matin et du soir aujourd\'hui sans manquement'}
+  },
+  {
+    id:25, emoji:'👥',
+    ar:{title:'الذكر الجماعي',desc:'حلقات الذكر من أعظم مجالس الخير. تحفها الملائكة وتغشاها الرحمة ويذكرهم الله فيمن عنده.',verse:'وَاصْبِرْ نَفْسَكَ مَعَ الَّذِينَ يَدْعُونَ رَبَّهُم بِالْغَدَاةِ وَالْعَشِيِّ',verseRef:'سورة الكهف ١٨: ٢٨',action:'شارك في حلقة ذكر أو اجمع أهلك لذكر الله معاً'},
+    en:{title:'Group Dhikr',desc:'Circles of dhikr are among the greatest gatherings of goodness. Angels surround them, mercy descends upon them, and God mentions them to those near Him.',verse:'And keep yourself patient with those who call upon their Lord in the morning and evening',verseRef:'Surah Al-Kahf 18:28',action:'Join a dhikr circle or gather your family to remember God together'},
+    fr:{title:'Le Dhikr en Groupe',desc:'Les cercles de dhikr sont parmi les plus grandes assembl\u00e9es de bien. Les anges les entourent, la mis\u00e9ricorde descend sur eux, et Dieu les mentionne aupr\u00e8s de Lui.',verse:'Et patiente avec ceux qui invoquent leur Seigneur matin et soir',verseRef:'Sourate Al-Kahf 18:28',action:'Rejoignez un cercle de dhikr ou rassemblez votre famille pour se souvenir de Dieu ensemble'}
+  },
+  {
+    id:26, emoji:'💧',
+    ar:{title:'الذكر عند الوضوء',desc:'الوضوء ليس مجرد غسل أعضاء. هو عبادة تبدأ بالتسمية وتنتهي بالشهادة. من توضأ فأحسن الوضوء وقال الشهادة فُتحت له أبواب الجنة.',verse:'يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ',verseRef:'سورة المائدة ٥: ٦',action:'اجعل وضوءك اليوم عبادة واعية — سمِّ بالله وانطق الشهادة بعده'},
+    en:{title:'Dhikr During Wudu',desc:'Wudu is not merely washing limbs. It is an act of worship that begins with Bismillah and ends with the shahada. Whoever performs wudu well and recites the shahada has the gates of Paradise opened.',verse:'O you who believe, when you rise to pray, wash your faces',verseRef:'Surah Al-Maidah 5:6',action:'Make your wudu today a conscious act of worship — say Bismillah and recite the shahada after it'},
+    fr:{title:'Le Dhikr Pendant les Ablutions',desc:'Les ablutions ne sont pas un simple lavage. C\'est un acte d\'adoration qui commence par Bismillah et se termine par la shahada. Celui qui fait bien ses ablutions et r\u00e9cite la shahada voit les portes du Paradis s\'ouvrir.',verse:'\u00d4 vous qui croyez, lorsque vous vous levez pour la pri\u00e8re, lavez vos visages',verseRef:'Sourate Al-Maidah 5:6',action:'Faites de vos ablutions aujourd\'hui un acte d\'adoration conscient — dites Bismillah et r\u00e9citez la shahada apr\u00e8s'}
+  },
+  {
+    id:27, emoji:'🚶',
+    ar:{title:'الذكر في الطريق',desc:'الطريق إلى المسجد أو العمل فرصة للذكر. كل خطوة بذكر الله ترفع درجة وتحط خطيئة. لا تضيع وقت المشي في الغفلة.',verse:'فِي بُيُوتٍ أَذِنَ اللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا اسْمُهُ',verseRef:'سورة النور ٢٤: ٣٦',action:'اذكر الله في طريقك اليوم بالتسبيح أو الاستغفار'},
+    en:{title:'Dhikr on the Way',desc:'The road to the mosque or work is an opportunity for dhikr. Every step with God\'s remembrance raises a rank and erases a sin. Do not waste walking time in heedlessness.',verse:'In houses which God has permitted to be raised and His name to be remembered therein',verseRef:'Surah An-Nur 24:36',action:'Remember God on your way today with tasbih or istighfar'},
+    fr:{title:'Le Dhikr en Chemin',desc:'Le chemin vers la mosqu\u00e9e ou le travail est une occasion de dhikr. Chaque pas avec le rappel de Dieu \u00e9l\u00e8ve un rang et efface un p\u00e9ch\u00e9. Ne gaspillez pas le temps de marche dans l\'insouciance.',verse:'Dans des maisons que Dieu a permis d\'\u00e9lever et o\u00f9 Son nom est invoqu\u00e9',verseRef:'Sourate An-Nur 24:36',action:'Souvenez-vous de Dieu en chemin aujourd\'hui avec le tasbih ou l\'istighfar'}
+  },
+  {
+    id:28, emoji:'🌿',
+    ar:{title:'الذكر شفاء للقلوب',desc:'القلب يمرض كما يمرض الجسد، وشفاؤه في ذكر الله. القلب الغافل عن الذكر قلب ميت وإن كان صاحبه حياً.',verse:'الَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ اللَّهِ',verseRef:'سورة الرعد ١٣: ٢٨',action:'إذا شعرت بضيق أو قلق اليوم، اجلس وسبّح الله مئة مرة'},
+    en:{title:'Dhikr Heals Hearts',desc:'The heart gets sick just as the body does, and its cure is in God\'s remembrance. A heart heedless of dhikr is a dead heart even if its owner is alive.',verse:'Those who believe and whose hearts find rest in the remembrance of God',verseRef:'Surah Ar-Ra\'d 13:28',action:'If you feel anxiety or distress today, sit and glorify God one hundred times'},
+    fr:{title:'Le Dhikr Gu\u00e9rit les Coeurs',desc:'Le coeur tombe malade comme le corps, et son rem\u00e8de est dans le rappel de Dieu. Un coeur insouciant du dhikr est un coeur mort m\u00eame si son propri\u00e9taire est vivant.',verse:'Ceux qui croient et dont les coeurs se tranquillisent au rappel de Dieu',verseRef:'Sourate Ar-Ra\'d 13:28',action:'Si vous ressentez de l\'anxi\u00e9t\u00e9 ou de la d\u00e9tresse aujourd\'hui, asseyez-vous et glorifiez Dieu cent fois'}
+  },
+  {
+    id:29, emoji:'🎁',
+    ar:{title:'الذكر أفضل الأعمال',desc:'سأل رجل النبي ﷺ: أي الأعمال أفضل؟ قال: "أن تموت ولسانك رطب من ذكر الله." الذكر يفوق كثيراً من الأعمال في الأجر.',verse:'وَلَذِكْرُ اللَّهِ أَكْبَرُ',verseRef:'سورة العنكبوت ٢٩: ٤٥',action:'اجعل لسانك رطباً بذكر الله طوال يومك اليوم'},
+    en:{title:'Dhikr: The Best of Deeds',desc:'A man asked the Prophet: Which deeds are best? He said: "That you die with your tongue moist from the remembrance of God." Dhikr surpasses many deeds in reward.',verse:'And the remembrance of God is greater',verseRef:'Surah Al-Ankabut 29:45',action:'Keep your tongue moist with God\'s remembrance throughout your day today'},
+    fr:{title:'Le Dhikr : Le Meilleur des Actes',desc:'Un homme demanda au Proph\u00e8te : Quels actes sont les meilleurs ? Il dit : « Que tu meures avec ta langue humide du rappel de Dieu. » Le dhikr surpasse beaucoup d\'actes en r\u00e9compense.',verse:'Et le rappel de Dieu est plus grand',verseRef:'Sourate Al-Ankabut 29:45',action:'Gardez votre langue humide du rappel de Dieu tout au long de votre journ\u00e9e'}
+  },
+  {
+    id:30, emoji:'🔑',
+    ar:{title:'الذكر مفتاح الرزق',desc:'الاستغفار والذكر من أعظم أسباب سعة الرزق. قال نوح لقومه: استغفروا ربكم يرسل السماء عليكم مدراراً.',verse:'فَقُلْتُ اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا',verseRef:'سورة نوح ٧١: ١٠',action:'أكثر من الاستغفار اليوم وراقب كيف تنفتح أبواب الرزق'},
+    en:{title:'Dhikr: The Key to Provision',desc:'Istighfar and dhikr are among the greatest causes of abundant provision. Noah told his people: Seek forgiveness from your Lord and He will send the sky upon you in showers.',verse:'And said: Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver',verseRef:'Surah Nuh 71:10',action:'Increase your istighfar today and observe how doors of provision open'},
+    fr:{title:'Le Dhikr : La Cl\u00e9 de la Subsistance',desc:'L\'istighfar et le dhikr sont parmi les plus grandes causes d\'abondance de subsistance. No\u00e9 dit \u00e0 son peuple : Demandez pardon \u00e0 votre Seigneur, Il enverra le ciel sur vous en abondance.',verse:'Et dit : Demandez pardon \u00e0 votre Seigneur. Il est certes Grand Pardonneur',verseRef:'Sourate Nuh 71:10',action:'Augmentez votre istighfar aujourd\'hui et observez comment les portes de la subsistance s\'ouvrent'}
+  },
+  {
+    id:31, emoji:'🌅',
+    ar:{title:'الذكر وقت الفجر',desc:'وقت الفجر من أعظم أوقات الذكر. فيه تتنزل الملائكة وتشهد قراءة القرآن. "إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا."',verse:'إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا',verseRef:'سورة الإسراء ١٧: ٧٨',action:'استيقظ قبل الفجر بعشر دقائق واذكر الله حتى تصلي'},
+    en:{title:'Dhikr at Fajr Time',desc:'The time of Fajr is among the greatest times for dhikr. Angels descend and witness the Quran recitation. "Indeed, the recitation of dawn is ever witnessed."',verse:'Indeed, the recitation of dawn is ever witnessed',verseRef:'Surah Al-Isra 17:78',action:'Wake up ten minutes before Fajr and remember God until you pray'},
+    fr:{title:'Le Dhikr au Temps du Fajr',desc:'Le temps du Fajr est parmi les plus grands moments pour le dhikr. Les anges descendent et t\u00e9moignent de la r\u00e9citation du Coran.',verse:'La r\u00e9citation de l\'aube est t\u00e9moign\u00e9e',verseRef:'Sourate Al-Isra 17:78',action:'R\u00e9veillez-vous dix minutes avant Fajr et rappelez-vous de Dieu jusqu\'\u00e0 la pri\u00e8re'}
+  },
+  {
+    id:32, emoji:'💎',
+    ar:{title:'كنوز الذكر',desc:'من كنوز الذكر: "لا حول ولا قوة إلا بالله" كنز من كنوز الجنة. و"سبحان الله وبحمده سبحان الله العظيم" ثقيلتان في الميزان.',verse:'وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ الشَّمْسِ وَقَبْلَ غُرُوبِهَا',verseRef:'سورة طه ٢٠: ١٣٠',action:'ردد "سبحان الله وبحمده" مئة مرة اليوم — تمحو الخطايا ولو كانت مثل زبد البحر'},
+    en:{title:'Treasures of Dhikr',desc:'Among the treasures of dhikr: "There is no power nor might except with God" is a treasure from the treasures of Paradise. And "Glory be to God and His praise" are heavy on the scales.',verse:'And exalt with praise of your Lord before the rising of the sun and before its setting',verseRef:'Surah Taha 20:130',action:'Repeat "SubhanAllahi wa bihamdihi" one hundred times today — it erases sins even if they were like sea foam'},
+    fr:{title:'Les Tr\u00e9sors du Dhikr',desc:'Parmi les tr\u00e9sors du dhikr : \u00ab Il n\'y a de puissance ni de force qu\'en Dieu \u00bb est un tr\u00e9sor du Paradis. Et \u00ab Gloire \u00e0 Dieu et Sa louange \u00bb sont lourds dans la balance.',verse:'Et glorifie par la louange de ton Seigneur avant le lever du soleil et avant son coucher',verseRef:'Sourate Taha 20:130',action:'R\u00e9p\u00e9tez \u00ab SubhanAllahi wa bihamdihi \u00bb cent fois aujourd\'hui — cela efface les p\u00e9ch\u00e9s m\u00eame s\'ils \u00e9taient comme l\'\u00e9cume de la mer'}
+  },
+  {
+    id:33, emoji:'🤲',
+    ar:{title:'آداب الدعاء',desc:'للدعاء آداب تزيد من فرصة الإجابة: الطهارة، استقبال القبلة، رفع اليدين، البدء بالحمد والصلاة على النبي، الإلحاح وحسن الظن بالله.',verse:'ادْعُوا رَبَّكُمْ تَضَرُّعًا وَخُفْيَةً',verseRef:'سورة الأعراف ٧: ٥٥',action:'ادعُ الله اليوم بكل آداب الدعاء وألح في طلبك بحسن ظن'},
+    en:{title:'Etiquette of Supplication',desc:'Supplication has etiquette that increases the chance of acceptance: purity, facing the Qibla, raising the hands, starting with praise and blessings on the Prophet, persistence and having good expectations of God.',verse:'Call upon your Lord in humility and privately',verseRef:'Surah Al-A\'raf 7:55',action:'Supplicate to God today with full etiquette and persist in your request with good expectations'},
+    fr:{title:'\u00c9tiquette de l\'Invocation',desc:'L\'invocation a une \u00e9tiquette qui augmente les chances d\'acceptation : puret\u00e9, orientation vers la Qibla, lever les mains, commencer par la louange et la pri\u00e8re sur le Proph\u00e8te, persistance et bonne opinion de Dieu.',verse:'Invoquez votre Seigneur en toute humilit\u00e9 et en secret',verseRef:'Sourate Al-A\'raf 7:55',action:'Invoquez Dieu aujourd\'hui avec toute l\'\u00e9tiquette et persistez dans votre demande avec bonne opinion'}
+  },
+  {
+    id:34, emoji:'🌙',
+    ar:{title:'الذكر في الثلث الأخير',desc:'الثلث الأخير من الليل أعظم وقت للذكر والدعاء. ينزل ربنا كل ليلة إلى السماء الدنيا فيقول: من يدعوني فأستجيب له.',verse:'وَبِالْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ',verseRef:'سورة الذاريات ٥١: ١٨',action:'استيقظ في الثلث الأخير من الليل ولو مرة هذا الأسبوع وادعُ الله'},
+    en:{title:'Dhikr in the Last Third',desc:'The last third of the night is the greatest time for dhikr and dua. Our Lord descends every night to the lowest heaven saying: Who will call upon Me that I may answer them.',verse:'And in the hours before dawn they would seek forgiveness',verseRef:'Surah Adh-Dhariyat 51:18',action:'Wake up in the last third of the night even once this week and call upon God'},
+    fr:{title:'Le Dhikr dans le Dernier Tiers',desc:'Le dernier tiers de la nuit est le plus grand moment pour le dhikr et le dua. Notre Seigneur descend chaque nuit au ciel le plus bas en disant : Qui M\'invoquera pour que Je lui r\u00e9ponde.',verse:'Et aux heures avant l\'aube ils imploraient le pardon',verseRef:'Sourate Adh-Dhariyat 51:18',action:'\u00c9veillez-vous dans le dernier tiers de la nuit m\u00eame une fois cette semaine et invoquez Dieu'}
+  },
+  {
+    id:35, emoji:'📿',
+    ar:{title:'التسبيح بعد الصلاة',desc:'من السنن المؤكدة التسبيح بعد كل صلاة: ٣٣ تسبيحة و٣٣ تحميدة و٣٣ تكبيرة وتمام المئة: لا إله إلا الله وحده لا شريك له.',verse:'فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ السَّاجِدِينَ',verseRef:'سورة الحجر ١٥: ٩٨',action:'لا تترك مجلسك بعد الصلاة حتى تكمل الأذكار والتسبيح'},
+    en:{title:'Tasbih After Prayer',desc:'Among the confirmed Sunnahs is tasbih after every prayer: 33 SubhanAllah, 33 Alhamdulillah, 33 Allahu Akbar, and completing the hundred with: La ilaha illAllah.',verse:'So exalt with praise of your Lord and be of those who prostrate',verseRef:'Surah Al-Hijr 15:98',action:'Do not leave your place after prayer until you complete the adhkar and tasbih'},
+    fr:{title:'Le Tasbih Apr\u00e8s la Pri\u00e8re',desc:'Parmi les Sunnas confirm\u00e9es : le tasbih apr\u00e8s chaque pri\u00e8re : 33 SubhanAllah, 33 Alhamdulillah, 33 Allahu Akbar, et compl\u00e9ter les cent avec : La ilaha illAllah.',verse:'Glorifie par la louange de ton Seigneur et sois de ceux qui se prosternent',verseRef:'Sourate Al-Hijr 15:98',action:'Ne quittez pas votre place apr\u00e8s la pri\u00e8re jusqu\'\u00e0 avoir compl\u00e9t\u00e9 les adhkar et le tasbih'}
+  },
+  {
+    id:36, emoji:'☀️',
+    ar:{title:'الذكر بعد صلاة الفجر',desc:'الجلوس بعد صلاة الفجر حتى طلوع الشمس مع ذكر الله له أجر حجة وعمرة تامة. هذا الوقت من أعظم أوقات البركة.',verse:'وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ الشَّمْسِ وَقَبْلَ الْغُرُوبِ',verseRef:'سورة ق ٥٠: ٣٩',action:'اجلس بعد صلاة الفجر غداً واذكر الله حتى تطلع الشمس'},
+    en:{title:'Dhikr After Fajr Prayer',desc:'Sitting after Fajr prayer until sunrise remembering God has the reward of a complete Hajj and Umrah. This time is among the greatest times of blessing.',verse:'And exalt with praise of your Lord before the rising of the sun and before sunset',verseRef:'Surah Qaf 50:39',action:'Sit after Fajr prayer tomorrow and remember God until sunrise'},
+    fr:{title:'Le Dhikr Apr\u00e8s la Pri\u00e8re du Fajr',desc:'S\'asseoir apr\u00e8s la pri\u00e8re du Fajr jusqu\'au lever du soleil en se souvenant de Dieu a la r\u00e9compense d\'un Hajj et d\'une Omra complets. Ce moment est parmi les plus b\u00e9nis.',verse:'Et glorifie par la louange de ton Seigneur avant le lever du soleil et avant le coucher',verseRef:'Sourate Qaf 50:39',action:'Asseyez-vous apr\u00e8s la pri\u00e8re du Fajr demain et souvenez-vous de Dieu jusqu\'au lever du soleil'}
+  },
+  {
+    id:37, emoji:'🕊️',
+    ar:{title:'الذكر والسكينة',desc:'الذكر يُنزل السكينة على القلب. في عالم مليء بالقلق والتوتر، الذكر هو الملاذ الآمن الذي يمنح الطمأنينة الحقيقية.',verse:'هُوَ الَّذِي أَنزَلَ السَّكِينَةَ فِي قُلُوبِ الْمُؤْمِنِينَ',verseRef:'سورة الفتح ٤٨: ٤',action:'عندما تشعر بالقلق اليوم، اجلس في مكان هادئ واذكر الله خمس دقائق'},
+    en:{title:'Dhikr and Tranquility',desc:'Dhikr brings tranquility to the heart. In a world full of anxiety and stress, dhikr is the safe refuge that grants true peace.',verse:'It is He who sent down tranquility into the hearts of the believers',verseRef:'Surah Al-Fath 48:4',action:'When you feel anxious today, sit in a quiet place and remember God for five minutes'},
+    fr:{title:'Le Dhikr et la S\u00e9r\u00e9nit\u00e9',desc:'Le dhikr apporte la s\u00e9r\u00e9nit\u00e9 au coeur. Dans un monde plein d\'anxi\u00e9t\u00e9 et de stress, le dhikr est le refuge s\u00fbr qui accorde la vraie paix.',verse:'C\'est Lui qui a fait descendre la s\u00e9r\u00e9nit\u00e9 dans les coeurs des croyants',verseRef:'Sourate Al-Fath 48:4',action:'Quand vous vous sentez anxieux aujourd\'hui, asseyez-vous dans un endroit calme et rappelez-vous de Dieu cinq minutes'}
+  },
+  {
+    id:38, emoji:'🌺',
+    ar:{title:'الصلاة على النبي ﷺ',desc:'الصلاة على النبي ﷺ من أعظم أنواع الذكر. من صلى عليّ واحدة صلى الله عليه عشراً. يوم الجمعة من أفضل أوقاتها.',verse:'إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ',verseRef:'سورة الأحزاب ٣٣: ٥٦',action:'أكثر من الصلاة على النبي ﷺ اليوم خاصة إذا كان يوم جمعة'},
+    en:{title:'Blessings Upon the Prophet',desc:'Sending blessings upon the Prophet is among the greatest types of dhikr. Whoever sends one blessing upon him, God sends ten blessings upon them. Friday is among the best times for it.',verse:'Indeed, God and His angels send blessings upon the Prophet',verseRef:'Surah Al-Ahzab 33:56',action:'Increase your blessings upon the Prophet today, especially if it is Friday'},
+    fr:{title:'Les Pri\u00e8res sur le Proph\u00e8te',desc:'Envoyer des pri\u00e8res sur le Proph\u00e8te est parmi les plus grands types de dhikr. Quiconque envoie une pri\u00e8re sur lui, Dieu envoie dix pri\u00e8res sur lui. Le vendredi est le meilleur moment.',verse:'Dieu et Ses anges prient sur le Proph\u00e8te',verseRef:'Sourate Al-Ahzab 33:56',action:'Augmentez vos pri\u00e8res sur le Proph\u00e8te aujourd\'hui, surtout si c\'est vendredi'}
+  },
+  {
+    id:39, emoji:'🌊',
+    ar:{title:'الذكر يمحو الذنوب',desc:'الاستغفار يمحو الذنوب كما يمحو الماء الأوساخ. من استغفر مئة مرة في اليوم غُفرت ذنوبه ولو كانت مثل زبد البحر.',verse:'وَاسْتَغْفِرُوا اللَّهَ إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ',verseRef:'سورة المزمل ٧٣: ٢٠',action:'استغفر الله مئة مرة اليوم واشعر بخفة القلب بعدها'},
+    en:{title:'Dhikr Erases Sins',desc:'Istighfar erases sins as water washes away dirt. Whoever seeks forgiveness one hundred times a day will have their sins forgiven even if they were like sea foam.',verse:'And seek forgiveness of God. Indeed, God is Forgiving and Merciful',verseRef:'Surah Al-Muzzammil 73:20',action:'Seek God\'s forgiveness one hundred times today and feel the lightness of heart afterward'},
+    fr:{title:'Le Dhikr Efface les P\u00e9ch\u00e9s',desc:'L\'istighfar efface les p\u00e9ch\u00e9s comme l\'eau lave la salet\u00e9. Quiconque demande pardon cent fois par jour verra ses p\u00e9ch\u00e9s pardonn\u00e9s m\u00eame s\'ils \u00e9taient comme l\'\u00e9cume de la mer.',verse:'Et demandez pardon \u00e0 Dieu. Dieu est certes Pardonneur et Mis\u00e9ricordieux',verseRef:'Sourate Al-Muzzammil 73:20',action:'Demandez pardon \u00e0 Dieu cent fois aujourd\'hui et ressentez la l\u00e9g\u00e8ret\u00e9 du coeur apr\u00e8s'}
+  },
+  {
+    id:40, emoji:'🏔️',
+    ar:{title:'الذكر والثبات',desc:'الذكر يثبّت القلب عند الفتن والابتلاءات. من كان لسانه رطباً بذكر الله ثبته الله عند الشدائد.',verse:'يُثَبِّتُ اللَّهُ الَّذِينَ آمَنُوا بِالْقَوْلِ الثَّابِتِ فِي الْحَيَاةِ الدُّنْيَا وَفِي الْآخِرَةِ',verseRef:'سورة إبراهيم ١٤: ٢٧',action:'عند كل فتنة أو ابتلاء اليوم، ردد: لا إله إلا الله محمد رسول الله'},
+    en:{title:'Dhikr and Steadfastness',desc:'Dhikr steadies the heart during tribulations and trials. Whoever keeps their tongue moist with God\'s remembrance, God will steady them during hardships.',verse:'God keeps firm those who believe with the firm word in the worldly life and in the Hereafter',verseRef:'Surah Ibrahim 14:27',action:'During every tribulation or trial today, repeat: There is no god but God, Muhammad is the Messenger of God'},
+    fr:{title:'Le Dhikr et la Constance',desc:'Le dhikr stabilise le coeur pendant les tribulations et les \u00e9preuves. Celui qui garde sa langue humide du rappel de Dieu sera stabilis\u00e9 par Dieu pendant les difficult\u00e9s.',verse:'Dieu affermit ceux qui croient par la parole ferme dans la vie d\'ici-bas et dans l\'au-del\u00e0',verseRef:'Sourate Ibrahim 14:27',action:'Pendant chaque tribulation aujourd\'hui, r\u00e9p\u00e9tez : Il n\'y a de dieu que Dieu, Muhammad est le Messager de Dieu'}
   }
 ];
 
@@ -280,6 +400,36 @@ const ADHKAR_DATA = [
     ar:{title:'دعاء المريض',text:'أَذْهِبِ الْبَأْسَ رَبَّ النَّاسِ اشْفِ أَنْتَ الشَّافِي',problem:'المرض يُنسي البعض الدعاء',solution:'الدعاء عند المرض شفاء للروح والجسد'},
     en:{title:'Dua for the Sick',text:'Remove the harm, O Lord of mankind, heal — You are the Healer',problem:'Illness makes some forget to supplicate',solution:'Dua during illness heals both soul and body'},
     fr:{title:'Dua pour le Malade',text:'Enl\u00e8ve le mal, \u00f4 Seigneur des hommes, gu\u00e9ris — Tu es le Gu\u00e9risseur',problem:'La maladie fait oublier \u00e0 certains d\'invoquer',solution:'Le dua pendant la maladie gu\u00e9rit l\'\u00e2me et le corps'}
+  },
+  {
+    emoji:'🛡️', category:'morning',
+    ar:{title:'آية الكرسي',text:'اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ',problem:'كثير من المسلمين لا يقرأون آية الكرسي صباحاً ومساءً',solution:'قراءة آية الكرسي بعد كل صلاة ضمانة لدخول الجنة'},
+    en:{title:'Ayat Al-Kursi',text:'Allah — there is no deity except Him, the Ever-Living, the Sustainer of existence',problem:'Many Muslims do not read Ayat al-Kursi morning and evening',solution:'Reading Ayat al-Kursi after every prayer is a guarantee for entering Paradise'},
+    fr:{title:'Ayat Al-Kursi',text:'Allah — il n\'y a de divinit\u00e9 que Lui, le Vivant, le Subsistant',problem:'Beaucoup de musulmans ne lisent pas Ayat al-Kursi matin et soir',solution:'Lire Ayat al-Kursi apr\u00e8s chaque pri\u00e8re est une garantie pour le Paradis'}
+  },
+  {
+    emoji:'🏪', category:'daily',
+    ar:{title:'ذكر دخول السوق',text:'لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ',problem:'الأسواق أحب البقاع إلى الشيطان',solution:'ذكر الله في السوق يكتب لك ألف ألف حسنة'},
+    en:{title:'Marketplace Dhikr',text:'There is no god but God alone, with no partner',problem:'Markets are the most beloved places to Satan',solution:'Remembering God in the marketplace earns you a million good deeds'},
+    fr:{title:'Dhikr du March\u00e9',text:'Il n\'y a de dieu que Dieu seul, sans associ\u00e9',problem:'Les march\u00e9s sont les lieux les plus aim\u00e9s du Satan',solution:'Se souvenir de Dieu au march\u00e9 vous rapporte un million de bonnes actions'}
+  },
+  {
+    emoji:'🪞', category:'daily',
+    ar:{title:'دعاء النظر في المرآة',text:'اللَّهُمَّ كَمَا أَحْسَنْتَ خَلْقِي فَأَحْسِنْ خُلُقِي',problem:'ننظر في المرآة بلا تأمل في نعمة الخلق',solution:'هذا الدعاء يربط بين جمال الظاهر وجمال الباطن'},
+    en:{title:'Dua When Looking in the Mirror',text:'O Allah, as You have made my form beautiful, make my character beautiful',problem:'We look in the mirror without reflecting on the blessing of creation',solution:'This dua connects outward beauty with inner beauty'},
+    fr:{title:'Dua en se Regardant dans le Miroir',text:'\u00d4 Allah, de m\u00eame que Tu as embelli ma forme, embellis mon caract\u00e8re',problem:'Nous nous regardons dans le miroir sans r\u00e9fl\u00e9chir \u00e0 la b\u00e9n\u00e9diction de la cr\u00e9ation',solution:'Ce dua relie la beaut\u00e9 ext\u00e9rieure \u00e0 la beaut\u00e9 int\u00e9rieure'}
+  },
+  {
+    emoji:'⛈️', category:'daily',
+    ar:{title:'دعاء الرعد',text:'سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلَائِكَةُ مِنْ خِيفَتِهِ',problem:'نخاف من الرعد ولا نتذكر ذكره',solution:'الرعد تسبيح لله والدعاء عنده مستجاب'},
+    en:{title:'Dua for Thunder',text:'Glory be to Him whom the thunder glorifies with His praise, and the angels too out of awe',problem:'We fear thunder but forget its dhikr',solution:'Thunder is a glorification of God and dua during it is answered'},
+    fr:{title:'Dua pour le Tonnerre',text:'Gloire \u00e0 Celui que le tonnerre glorifie par Sa louange, et les anges aussi par crainte',problem:'Nous avons peur du tonnerre mais oublions son dhikr',solution:'Le tonnerre est une glorification de Dieu et le dua pendant celui-ci est exauc\u00e9'}
+  },
+  {
+    emoji:'🌬️', category:'daily',
+    ar:{title:'دعاء الريح',text:'اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا وَخَيْرَ مَا أُرْسِلَتْ بِهِ',problem:'الريح الشديدة تخيف ولا نذكر دعاءها',solution:'النبي ﷺ كان إذا هبت الريح قال هذا الدعاء'},
+    en:{title:'Dua for Wind',text:'O Allah, I ask You for its good and the good of what it brings',problem:'Strong winds frighten us but we forget their dua',solution:'The Prophet used to say this dua whenever the wind blew strongly'},
+    fr:{title:'Dua pour le Vent',text:'\u00d4 Allah, je Te demande son bien et le bien de ce qu\'il apporte',problem:'Les vents forts nous effraient mais nous oublions leur dua',solution:'Le Proph\u00e8te disait ce dua chaque fois que le vent soufflait fort'}
   }
 ];
 
@@ -293,6 +443,15 @@ const HABITS = [
   {emoji:'🔄',ar:{label:'استغفار ١٠٠ مرة',source:'السنة النبوية'},en:{label:'Istighfar 100 times',source:'Prophetic Sunnah'},fr:{label:'Istighfar 100 fois',source:'Sunnah proph\u00e9tique'}},
   {emoji:'💚',ar:{label:'الصلاة على النبي ﷺ',source:'سورة الأحزاب'},en:{label:'Blessings on the Prophet ﷺ',source:'Surah Al-Ahzab'},fr:{label:'Pri\u00e8res sur le Proph\u00e8te ﷺ',source:'Sourate Al-Ahzab'}},
   {emoji:'😴',ar:{label:'أذكار النوم',source:'حصن المؤمن'},en:{label:'Sleep adhkar',source:'Fortress of the believer'},fr:{label:'Adhkar du sommeil',source:'Forteresse du croyant'}},
+  {emoji:'🏪',ar:{label:'ذكر دخول السوق',source:'من الأذكار المهجورة'},en:{label:'Marketplace dhikr',source:'From abandoned adhkar'},fr:{label:'Dhikr du march\u00e9',source:'Des adhkar abandonn\u00e9s'}},
+  {emoji:'🪞',ar:{label:'دعاء النظر في المرآة',source:'من آداب الإسلام'},en:{label:'Mirror dua',source:'From Islamic etiquette'},fr:{label:'Dua du miroir',source:'De l\'\u00e9tiquette islamique'}},
+  {emoji:'🛡️',ar:{label:'قراءة آية الكرسي بعد كل صلاة',source:'حصن المؤمن'},en:{label:'Read Ayat al-Kursi after each prayer',source:'Fortress of the believer'},fr:{label:'Lire Ayat al-Kursi apr\u00e8s chaque pri\u00e8re',source:'Forteresse du croyant'}},
+  {emoji:'🌧️',ar:{label:'دعاء المطر والرعد',source:'من أذكار الأحوال'},en:{label:'Rain and thunder dua',source:'From situational adhkar'},fr:{label:'Dua de la pluie et du tonnerre',source:'Des adhkar situationnels'}},
+  {emoji:'🍽️',ar:{label:'التسمية قبل الطعام والحمد بعده',source:'آداب الطعام'},en:{label:'Bismillah before food and Alhamdulillah after',source:'Eating etiquette'},fr:{label:'Bismillah avant le repas et Alhamdulillah apr\u00e8s',source:'\u00c9tiquette du repas'}},
+  {emoji:'🌺',ar:{label:'الصلاة على النبي ﷺ ١٠٠ مرة',source:'من أعظم الأذكار'},en:{label:'Send blessings on the Prophet 100 times',source:'Among the greatest adhkar'},fr:{label:'Envoyer des pri\u00e8res sur le Proph\u00e8te 100 fois',source:'Parmi les plus grands adhkar'}},
+  {emoji:'☀️',ar:{label:'الجلوس بعد الفجر حتى الشروق',source:'أجر حجة وعمرة'},en:{label:'Sit after Fajr until sunrise',source:'Reward of Hajj and Umrah'},fr:{label:'S\'asseoir apr\u00e8s le Fajr jusqu\'au lever du soleil',source:'R\u00e9compense du Hajj et Omra'}},
+  {emoji:'🤲',ar:{label:'دعاء في الثلث الأخير من الليل',source:'وقت الإجابة'},en:{label:'Dua in the last third of the night',source:'Time of answered prayers'},fr:{label:'Dua dans le dernier tiers de la nuit',source:'Moment des pri\u00e8res exauc\u00e9es'}},
+  {emoji:'💎',ar:{label:'قول لا حول ولا قوة إلا بالله',source:'كنز من كنوز الجنة'},en:{label:'Say La hawla wala quwwata illa billah',source:'A treasure from Paradise'},fr:{label:'Dire La hawla wala quwwata illa billah',source:'Un tr\u00e9sor du Paradis'}},
 ];
 
 // ═══════════════ QUIZ DATA ═══════════════
@@ -307,6 +466,18 @@ const QUIZ = [
   {ar:'هل تعرف آداب الدعاء وتطبقها؟',en:'Do you know and apply the etiquette of dua?',fr:'Connaissez-vous et appliquez-vous l\'\u00e9tiquette du dua ?'},
   {ar:'هل تدعو للآخرين بظهر الغيب؟',en:'Do you pray for others in their absence?',fr:'Priez-vous pour les autres en leur absence ?'},
   {ar:'هل تحرص على قيام الليل ولو ركعتين؟',en:'Do you strive for night prayer, even two rak\'at?',fr:'Vous efforcez-vous de prier la nuit, m\u00eame deux rak\'at ?'},
+  {ar:'هل تذكر الله عند دخول السوق والأماكن المزدحمة؟',en:'Do you remember God when entering marketplaces and crowded places?',fr:'Vous souvenez-vous de Dieu en entrant dans les march\u00e9s et lieux bond\u00e9s ?'},
+  {ar:'هل تقرأ أذكار النوم قبل أن تنام كل ليلة؟',en:'Do you read the sleep adhkar before sleeping every night?',fr:'Lisez-vous les adhkar du sommeil avant de dormir chaque nuit ?'},
+  {ar:'هل تلجأ إلى الذكر عند الشدائد والأزمات؟',en:'Do you turn to dhikr during hardships and crises?',fr:'Vous tournez-vous vers le dhikr pendant les \u00e9preuves et les crises ?'},
+  {ar:'هل تسبح بعد كل صلاة ٣٣ مرة؟',en:'Do you do tasbih 33 times after every prayer?',fr:'Faites-vous le tasbih 33 fois apr\u00e8s chaque pri\u00e8re ?'},
+  {ar:'هل تعرف آداب الدعاء وتطبقها عند كل دعاء؟',en:'Do you know the etiquette of dua and apply it every time?',fr:'Connaissez-vous l\'\u00e9tiquette du dua et l\'appliquez-vous \u00e0 chaque fois ?'},
+  {ar:'هل تستيقظ في الثلث الأخير من الليل للذكر والدعاء؟',en:'Do you wake in the last third of the night for dhikr and dua?',fr:'Vous r\u00e9veillez-vous dans le dernier tiers de la nuit pour le dhikr et le dua ?'},
+  {ar:'هل تحفظ كنوز الذكر: سبحان الله وبحمده ولا حول ولا قوة إلا بالله؟',en:'Do you memorize the treasures of dhikr: SubhanAllahi wa bihamdihi and La hawla wala quwwata illa billah?',fr:'M\u00e9morisez-vous les tr\u00e9sors du dhikr : SubhanAllahi wa bihamdihi et La hawla wala quwwata illa billah ?'},
+  {ar:'هل تجلس بعد صلاة الفجر لذكر الله حتى طلوع الشمس؟',en:'Do you sit after Fajr remembering God until sunrise?',fr:'Restez-vous assis apr\u00e8s le Fajr \u00e0 vous souvenir de Dieu jusqu\'au lever du soleil ?'},
+  {ar:'هل تكثر من الصلاة على النبي ﷺ خاصة يوم الجمعة؟',en:'Do you frequently send blessings on the Prophet, especially on Friday?',fr:'Envoyez-vous fr\u00e9quemment des pri\u00e8res sur le Proph\u00e8te, surtout le vendredi ?'},
+  {ar:'هل تعلّم أطفالك أذكار الصباح والمساء؟',en:'Do you teach your children the morning and evening adhkar?',fr:'Enseignez-vous \u00e0 vos enfants les adhkar du matin et du soir ?'},
+  {ar:'هل تذكر الله عند الوضوء بالتسمية والشهادة؟',en:'Do you remember God during wudu with Bismillah and the shahada?',fr:'Vous souvenez-vous de Dieu pendant les ablutions avec Bismillah et la shahada ?'},
+  {ar:'هل تحافظ على ذكر الله في كل أحوالك: فرحاً وحزناً؟',en:'Do you maintain God\'s remembrance in all states: joy and sadness?',fr:'Maintenez-vous le rappel de Dieu dans tous vos \u00e9tats : joie et tristesse ?'},
 ];
 
 // ═══════════════ DUAS DATA ═══════════════
@@ -319,6 +490,13 @@ const DUAS = [
   {ar:{label:'دعاء النور',text:'اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُورًا',tr:'اللهم اجعل في قلبي نوراً وفي بصري نوراً'},en:{label:'Dua for Light',text:'Allahumma ij\'al fi qalbi nuran',tr:'O Allah, place light in my heart and light in my sight'},fr:{label:'Dua pour la Lumi\u00e8re',text:'Allahumma ij\'al fi qalbi nuran',tr:'\u00d4 Allah, mets de la lumi\u00e8re dans mon c\u0153ur et dans ma vue'}},
   {ar:{label:'دعاء العلم النافع',text:'اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا',tr:'اللهم إني أسألك علماً نافعاً ورزقاً طيباً وعملاً متقبلاً'},en:{label:'Dua for Beneficial Knowledge',text:'Allahumma inni as\'aluka \'ilman nafi\'an',tr:'O Allah, I ask You for beneficial knowledge, good provision, and accepted deeds'},fr:{label:'Dua pour le Savoir B\u00e9n\u00e9fique',text:'Allahumma inni as\'aluka \'ilman nafi\'an',tr:'\u00d4 Allah, je Te demande un savoir b\u00e9n\u00e9fique, une bonne subsistance et des actes accept\u00e9s'}},
   {ar:{label:'دعاء ختام المجلس',text:'سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ',tr:'سبحانك اللهم وبحمدك أشهد أن لا إله إلا أنت أستغفرك وأتوب إليك'},en:{label:'Dua for Closing a Gathering',text:'SubhanakaAllahumma wa bihamdika, ash-hadu an la ilaha illa Anta',tr:'Glory be to You O Allah and praise, I testify there is no god but You'},fr:{label:'Dua de Cl\u00f4ture d\'une Assembl\u00e9e',text:'SubhanakaAllahumma wa bihamdika, ash-hadu an la ilaha illa Anta',tr:'Gloire et louange \u00e0 Toi \u00f4 Allah, j\'atteste qu\'il n\'y a de dieu que Toi'}},
+  {ar:{label:'دعاء دخول السوق',text:'لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ',tr:'لا إله إلا الله وحده لا شريك له، له الملك وله الحمد يحيي ويميت'},en:{label:'Dua for Entering the Marketplace',text:'La ilaha illAllahu wahdahu la sharika lah, lahul mulku wa lahul hamd',tr:'There is no god but God alone, with no partner. His is the dominion and His is the praise'},fr:{label:'Dua pour Entrer au March\u00e9',text:'La ilaha illAllahu wahdahu la sharika lah, lahul mulku wa lahul hamd',tr:'Il n\'y a de dieu que Dieu seul, sans associ\u00e9. \u00c0 Lui la royaut\u00e9 et \u00e0 Lui la louange'}},
+  {ar:{label:'دعاء الكرب والشدة',text:'لَا إِلَهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ',tr:'دعاء يونس عليه السلام في بطن الحوت'},en:{label:'Dua for Distress',text:'La ilaha illa Anta subhanaka inni kuntu min adh-dhalimin',tr:'There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers'},fr:{label:'Dua pour la D\u00e9tresse',text:'La ilaha illa Anta subhanaka inni kuntu min adh-dhalimin',tr:'Il n\'y a de divinit\u00e9 que Toi, gloire \u00e0 Toi, j\'\u00e9tais parmi les injustes'}},
+  {ar:{label:'دعاء الشكر',text:'اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ',tr:'اللهم أعني على ذكرك وشكرك وحسن عبادتك'},en:{label:'Dua for Gratitude',text:'Allahumma a\'inni ala dhikrika wa shukrika wa husni ibadatik',tr:'O God, help me remember You, thank You, and worship You well'},fr:{label:'Dua pour la Gratitude',text:'Allahumma a\'inni ala dhikrika wa shukrika wa husni ibadatik',tr:'\u00d4 Allah, aide-moi \u00e0 Te rappeler, Te remercier et bien T\'adorer'}},
+  {ar:{label:'دعاء الصباح',text:'أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ رَبِّ الْعَالَمِينَ',tr:'أصبحنا وأصبح الملك لله والحمد لله'},en:{label:'Morning Dua',text:'Asbahna wa asbahal mulku lillahi rabbil alamin',tr:'We have reached the morning and the dominion belongs to God, Lord of the worlds'},fr:{label:'Dua du Matin',text:'Asbahna wa asbahal mulku lillahi rabbil alamin',tr:'Nous avons atteint le matin et la royaut\u00e9 appartient \u00e0 Dieu, Seigneur des mondes'}},
+  {ar:{label:'دعاء المساء',text:'أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ رَبِّ الْعَالَمِينَ',tr:'أمسينا وأمسى الملك لله والحمد لله'},en:{label:'Evening Dua',text:'Amsayna wa amsal mulku lillahi rabbil alamin',tr:'We have reached the evening and the dominion belongs to God, Lord of the worlds'},fr:{label:'Dua du Soir',text:'Amsayna wa amsal mulku lillahi rabbil alamin',tr:'Nous avons atteint le soir et la royaut\u00e9 appartient \u00e0 Dieu, Seigneur des mondes'}},
+  {ar:{label:'دعاء التوبة',text:'رَبِّ اغْفِرْ لِي وَتُبْ عَلَيَّ إِنَّكَ أَنتَ التَّوَّابُ الرَّحِيمُ',tr:'رب اغفر لي وتب عليّ إنك أنت التواب الرحيم'},en:{label:'Dua for Repentance',text:'Rabbi ighfir li wa tub alayya innaka antat-tawwabur-rahim',tr:'My Lord, forgive me and accept my repentance. Indeed, You are the Accepting of repentance, the Merciful'},fr:{label:'Dua pour le Repentir',text:'Rabbi ighfir li wa tub alayya innaka antat-tawwabur-rahim',tr:'Mon Seigneur, pardonne-moi et accepte mon repentir. Tu es certes l\'Accueillant au repentir, le Mis\u00e9ricordieux'}},
+  {ar:{label:'دعاء الشفاء',text:'اللَّهُمَّ رَبَّ النَّاسِ أَذْهِبِ الْبَأْسَ اشْفِهِ أَنْتَ الشَّافِي لَا شِفَاءَ إِلَّا شِفَاؤُكَ',tr:'اللهم رب الناس أذهب البأس اشفه'},en:{label:'Dua for Healing',text:'Allahumma rabban-nas adh-hibil ba\'sa ishfihi antash-shafi la shifa\'a illa shifa\'uk',tr:'O God, Lord of mankind, remove the affliction, heal him, You are the Healer'},fr:{label:'Dua pour la Gu\u00e9rison',text:'Allahumma rabban-nas adh-hibil ba\'sa ishfihi antash-shafi la shifa\'a illa shifa\'uk',tr:'\u00d4 Allah, Seigneur des hommes, enl\u00e8ve le mal, gu\u00e9ris-le, Tu es le Gu\u00e9risseur'}},
 ];
 
 // ═══════════════ STATE ═══════════════

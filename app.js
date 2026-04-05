@@ -111,7 +111,7 @@ const T = {
 const CARDS = [
   {
     id:1, emoji:'🤲',
-    ar:{title:'حقيقة الذكر',desc:'الذكر ليس مجرد تحريك اللسان بكلمات. إنه استحضار عظمة الله في القلب والعقل معاً. الذاكر الحقيقي هو من يعيش مع الله في كل لحظة.',verse:'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ',verseRef:'سورة الرعد ١٣: ٢٨',action:'توقف الآن وقل "سبحان الله وبحمده" بتدبر وخشوع'},
+    ar:{title:'حقيقة الذكر عند الغزالي',desc:'يرى الغزالي أن الذكر ليس مجرد تحريك اللسان بكلمات مكرورة، بل حضور قلبي وصلة حية مع الله. يؤكد أن الذكر يبني حصناً للمؤمن في زمن التحديات الروحية — وهو عبادة خاتم الأنبياء الكبرى.',verse:'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ',verseRef:'سورة الرعد ١٣: ٢٨',action:'توقف الآن وقل "سبحان الله وبحمده" بتدبر وخشوع'},
     en:{title:'The Reality of Dhikr',desc:'Dhikr is not merely moving the tongue with words. It is evoking God\'s greatness in both heart and mind. The true one who remembers lives with God every moment.',verse:'Verily, in the remembrance of Allah do hearts find rest',verseRef:'Surah Ar-Ra\'d 13:28',action:'Pause now and say "SubhanAllah wa bihamdihi" with reflection and humility'},
     fr:{title:'La R\u00e9alit\u00e9 du Dhikr',desc:'Le dhikr n\'est pas simplement bouger la langue avec des mots. C\'est \u00e9voquer la grandeur de Dieu dans le c\u0153ur et l\'esprit. Le vrai dh\u00e2kir vit avec Dieu \u00e0 chaque instant.',verse:'C\'est par le rappel d\'Allah que les c\u0153urs se tranquillisent',verseRef:'Sourate Ar-Ra\'d 13:28',action:'Faites une pause et dites "SubhanAllah wa bihamdihi" avec r\u00e9flexion'}
   },
